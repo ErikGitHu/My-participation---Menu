@@ -29,10 +29,10 @@ const Menu = () => {
                     animate={{width:'100%', opacity:1}}>
                         ${<Box onClick={[]}>
                             <ImagemConjunto src={imagem} alt="background"/>
-                            <BotaoHome href="#">HOME</BotaoHome>
-                            <BotaoSobre href="#">SOBRE</BotaoSobre>
-                            <BotaoLineUp href="#">LINE UP</BotaoLineUp>
-                            <BotaoContato href="#">CONTATO</BotaoContato>
+                            <BotaoHome href="#">Home</BotaoHome>
+                            <BotaoSobre href="#">Sobre</BotaoSobre>
+                            <BotaoLineUp href="#">Line up</BotaoLineUp>
+                            <BotaoContato href="#">Contato</BotaoContato>
                         </Box>}
                     </motion.div> 
                 </Animated01>
